@@ -1,0 +1,73 @@
+
+#Brand{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:turquoise;
+}
+
+
+
+.container{
+    padding:30px;
+    
+}
+
+body{
+    background-image: url("Pictures/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*.nongeneric{
+    background-image: url("Pictures/back2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+#header{
+    width: 100%;
+}
+.cardx{
+    margin-bottom: 80px;
+    margin-top:50px;
+}
+#Nav.navbar-custom.navbar-expand-lg{
+    background-color:#2B2D2F;
+}
+.nav-link{
+    color:white
+}
+.aboutinnerbox{
+    text-align: center;
+    padding:35px;
+    background-color: rgb(82, 11, 52);
+    color:white;
+    height:100%;
+    border-radius: 15px;
+}
+.aboutbox{
+    margin-bottom: 30px;
+    
+    padding-top:20px;
+}
+.abouttitles{
+    color:rgb(86, 194, 185);
+}
+
+.row {
+    display: flex; /* equal height of the children */
+  }
+.blanks{
+    padding:4px;
+}
+
+
+#deathImage{
+    width: 100%;
+}
+
+.messagebox{
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(146, 7, 7);
+    background-color: black;
+    border-radius: 5px;
+}
