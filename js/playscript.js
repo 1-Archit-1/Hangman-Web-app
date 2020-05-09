@@ -108,6 +108,12 @@ document.addEventListener("DOMContentLoaded",
                         $('#Lettercontainer').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
                             document.querySelector('#Lettercontainer').style.display = "none";
                         });
+                        document.querySelector('#Lettercontainer').style.display = "none";
+                        Xbut=document.querySelector('#PAbut');
+                        Xbut.style.display="block"; 
+                        Xbut.addEventListener("click",function(event){
+                            location.reload();
+                        })  ; 
                     }
                 }
                 else
@@ -122,9 +128,14 @@ document.addEventListener("DOMContentLoaded",
                 }
                 else {
                     $("#Lettercontainer").addClass("animated fadeOut");
-                    document.querySelector(".messagebox").innerHTML = "<h3 class=\"animated fadeIn slow\" >You have lost!<h3>"
+                    document.querySelector(".messagebox").innerHTML = "<h3 class=\"animated fadeIn slow\" >You have lost!<br>The answer was-<br>"+movie+"<h3>"
                     $('#Lettercontainer').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
                         document.querySelector('#Lettercontainer').style.display = "none";
+                        Xbut=document.querySelector('#PAbut');
+                        Xbut.style.display="block"; 
+                        Xbut.addEventListener("click",function(event){
+                            location.reload();
+                        })  ; 
                     });
                 }
             }
